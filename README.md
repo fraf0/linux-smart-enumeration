@@ -28,6 +28,11 @@ In the default level you should see the highly important security flaws in the s
 interesting information that should help you to privesc. The level `2` (`./lse.sh -l2`) will just dump all the information it
 gathers about the system.
 
+In the output, lines containt a flag for indicate if you can gather more data and at which level:
+* [!] No more information to gather;
+* [*] More data to gather with level 1
+* [i] More data to gather with level 2
+
 By default it will ask you some questions: mainly the current user password (if you know it ;) so it can do some additional tests.
 
 ## How to use it?
